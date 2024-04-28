@@ -6,13 +6,16 @@ import './App.css'
 function App() {
   // let counter = 20
 
-  let [counter, setCounter] = useState(20)
+  let [counter, setCounter] = useState(20)  //IMPORTANT to note..
 
   const addvalue = () => {
     console.log("value increases", counter)
     counter++;
     setCounter(counter)
   }
+
+//                  HOOKS : they are used to update the UI 
+//                  React update the UI through Hooks
 
   const removevalue = () => {
     setCounter(counter - 1)
