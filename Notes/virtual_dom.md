@@ -24,3 +24,12 @@
 
 # PROPS
 ## Props is a special keyword in React that stands for properties and is used for passing data from one component to another. Data with props are passed in a unidirectional flow from parent to child.
+
+<!-- sdfashfda; -->
+
+## whenever we apply loop in jsx then we should remember the 'key' in loop in react, otherwise it will throw an warning..to maintain the performance.
+
+## we didn't use <a> tag in react since it refresh the page so we use LINK(under react-router-dom)
+
+## Context API - state management ke liye context API use hota hai..ex - Redux, redux toolkit(RTK)
+
